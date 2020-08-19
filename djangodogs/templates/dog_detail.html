@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, {{ dog.name }}!</h1>
+        <p class="lead">The breed of this dog is {{ dog.breed }}</p>
+        <p>Description: {{ dog.description }}</p>
+    </div>
+{% endblock content %}
+
